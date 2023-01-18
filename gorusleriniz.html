@@ -1,0 +1,35 @@
+<html lang="tr">
+    <head>
+        <title>Görüşleriniz</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="genel.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="aciklama">
+            <h1>Sayfamızı nasıl buldunuz?</h1>
+
+            <form>
+                <input type="radio" id="cokguzel" name="gorusler" value="Çok Güzel!">
+                <label for="cokguzel">Çok Güzel!</label><br>
+                <input type="radio" id="guzel" name="gorusler" value="Güzel!">
+                <label for="guzel">Güzel!</label><br>
+                <input type="radio" id="orta" name="gorusler" value="Orta">
+                <label for="orta">Orta</label><br>
+                <input type="radio" id="meh" name="gorusler" value="Meh">
+                <label for="meh">Meh</label> 
+            </form>
+
+            <h1>Adınız ve Soyadınız</h1>
+
+            <form action="/action_page.php">
+                <label for="adiniz">Adınız:</label><br>
+                <input type="text" id="adiniz" name="adiniz" value="Adınızı giriniz"><br>
+                <label for="soyadiniz">Soyadınız:</label><br>
+                <input type="text" id="soyadiniz" name="soyadiniz" value="Soyadınızı giriniz"><br><br>
+                <input type="submit" value="Gönder">
+            </form>
+        </div>
+    </body>
+</html>
